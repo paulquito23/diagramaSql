@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41E190E5-7033-D052-E401-AA8E27445685" name="modelo">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B6CAB8D-BC94-96E0-F10B-DCBBCDB9E416" name="Proforma_parametros_generales">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 19:56:03 UTC</createdTime>
+<createdTime>2021-04-07 21:46:02 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cod_modelo" id="87593E72-5DCC-E563-CF06-94DD0D26A63C">
+<Attribute name="id" id="A3433304-E689-C27A-44D0-DFF5323ADD12">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:24:02 UTC</createdTime>
+<createdTime>2021-04-07 21:46:18 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -27,32 +27,46 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_modelo" id="14B9E4CA-FB4E-08E8-8FF9-FB7370C642B2">
+<Attribute name="id1" id="F21FC624-B7F1-630F-3BA4-A696D8A1D974">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:37:33 UTC</createdTime>
+<createdTime>2021-04-07 21:55:16 UTC</createdTime>
+<generatorID>9D911842-DC5B-F27A-D737-BA5C37D329B5</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D0C8F65D-4816-1328-6821-DBAC9229E711</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="53518956-C98F-E589-9F9B-F88C08E3B603">
+<createdBy>paul</createdBy>
+<createdTime>2021-04-07 22:19:31 UTC</createdTime>
+<generatorID>751D8F81-97AA-67A2-7D95-FD9898EE8D6E</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>A3711705-F430-96C6-1C40-8D25CF2BDFF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="67F135C6-854F-1089-76B9-4DCB77B508B7" name="modelo PK">
+<identifier id="2BE38D35-A7AF-2C83-D140-2378D4B3DAA2" name="Proforma_parametros_generales PK">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:39:09 UTC</createdTime>
+<createdTime>2021-04-07 22:19:22 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>87593E72-5DCC-E563-CF06-94DD0D26A63C</attributeRef>
+<attributeRef>A3433304-E689-C27A-44D0-DFF5323ADD12</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

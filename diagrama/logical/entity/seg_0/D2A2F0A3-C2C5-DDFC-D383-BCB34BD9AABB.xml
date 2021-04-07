@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41E190E5-7033-D052-E401-AA8E27445685" name="modelo">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2A2F0A3-C2C5-DDFC-D383-BCB34BD9AABB" name="Tipo_parametros_generales">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 19:56:03 UTC</createdTime>
+<createdTime>2021-04-07 21:48:22 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cod_modelo" id="87593E72-5DCC-E563-CF06-94DD0D26A63C">
+<Attribute name="id" id="A785A22F-F9F7-0EE5-2957-9A3C100F25EB">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:24:02 UTC</createdTime>
+<createdTime>2021-04-07 21:48:28 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_modelo" id="14B9E4CA-FB4E-08E8-8FF9-FB7370C642B2">
+<Attribute name="nombre" id="6065053A-ADBD-2577-6F48-99189184F0D6">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:37:33 UTC</createdTime>
+<createdTime>2021-04-07 21:48:37 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -38,21 +38,20 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="67F135C6-854F-1089-76B9-4DCB77B508B7" name="modelo PK">
+<identifier id="1082B826-96C1-062F-BB71-F1A1A546BF40" name="Tipo_parametros_generales PK">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:39:09 UTC</createdTime>
+<createdTime>2021-04-07 22:19:27 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>87593E72-5DCC-E563-CF06-94DD0D26A63C</attributeRef>
+<attributeRef>A785A22F-F9F7-0EE5-2957-9A3C100F25EB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41E190E5-7033-D052-E401-AA8E27445685" name="modelo">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB043F6B-EA17-4594-C3E1-9F559AF222DB" name="centro_coso_fsc">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 19:56:03 UTC</createdTime>
+<createdTime>2021-04-07 21:08:30 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cod_modelo" id="87593E72-5DCC-E563-CF06-94DD0D26A63C">
+<Attribute name="id" id="77556E53-59FA-E2F7-2884-EE73A58869E9">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:24:02 UTC</createdTime>
+<createdTime>2021-04-07 21:10:34 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -27,32 +27,32 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_modelo" id="14B9E4CA-FB4E-08E8-8FF9-FB7370C642B2">
+<Attribute name="id1" id="E066B8BB-28A3-1DAE-021E-6AE30AF3BEE4">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:37:33 UTC</createdTime>
+<createdTime>2021-04-07 21:33:16 UTC</createdTime>
+<generatorID>1E24C733-2D56-2D0F-5D93-F0FCBBE4C811</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BB9AEE0C-07C0-222D-9D6C-45C53092B3E6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="67F135C6-854F-1089-76B9-4DCB77B508B7" name="modelo PK">
+<identifier id="CB879F49-2BB1-3DAF-4BDB-63A23FD4C1AC" name="centro_coso_fsc PK">
 <createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:39:09 UTC</createdTime>
+<createdTime>2021-04-07 21:10:43 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>87593E72-5DCC-E563-CF06-94DD0D26A63C</attributeRef>
+<attributeRef>77556E53-59FA-E2F7-2884-EE73A58869E9</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
