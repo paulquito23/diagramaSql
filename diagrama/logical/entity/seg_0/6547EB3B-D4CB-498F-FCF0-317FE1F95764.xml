@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6547EB3B-D4CB-498F-FCF0-317FE1F95764" name="Embarque">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6547EB3B-D4CB-498F-FCF0-317FE1F95764" name="embarque">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:49:47 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="D4150F7A-728F-3F39-B8B2-A5D2F6F3E9B5">
+<Attribute name="emb_codigo" id="D4150F7A-728F-3F39-B8B2-A5D2F6F3E9B5">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:53:08 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,7 +27,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero_certificado_origen" id="F1838704-6FCE-068F-8D93-FA5FC07304C4">
+<Attribute name="emb_empresa" id="A6005673-EAED-C3FC-1D74-625ACF3A82A5">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-08 23:32:38 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emb_numero_certificado_origen" id="F1838704-6FCE-068F-8D93-FA5FC07304C4">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:53:27 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -41,7 +54,7 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_vencimiento_certificado" id="2BF5F57A-F80A-9EF4-0E93-85CCC0EA6193">
+<Attribute name="emb_fecha_vencimiento_certificado" id="2BF5F57A-F80A-9EF4-0E93-85CCC0EA6193">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:55:33 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -54,7 +67,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_certificado_origen" id="AB1D653B-3D8F-6A30-0581-C4120B289EC4">
+<Attribute name="emb_fecha_certificado_origen" id="AB1D653B-3D8F-6A30-0581-C4120B289EC4">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:55:59 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -67,7 +80,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero_registro_importacion" id="EE2C38CF-71C1-4383-339B-6092BFB34E82">
+<Attribute name="emb_numero_registro_importacion" id="EE2C38CF-71C1-4383-339B-6092BFB34E82">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:56:21 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -80,7 +93,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_registro_importacion" id="6086A298-16E2-72AA-0258-7FFB10813EFC">
+<Attribute name="emb_fecha_registro_importacion" id="6086A298-16E2-72AA-0258-7FFB10813EFC">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:56:47 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -93,7 +106,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_vencimiento_registro_importacion" id="88DB2AE5-859A-30EB-55B8-BA3583EA5ACB">
+<Attribute name="emb_fecha_vencimiento_registro_importacion" id="88DB2AE5-859A-30EB-55B8-BA3583EA5ACB">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:57:23 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -106,7 +119,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ETD_fecha_embarque" id="8C2AFA16-6C4A-3CC2-D9C8-5A028370BD32">
+<Attribute name="emb_etd_fecha_embarque" id="8C2AFA16-6C4A-3CC2-D9C8-5A028370BD32">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:58:59 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -119,7 +132,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FOD_unitario" id="2E4F4C5C-E9D4-1CD7-2F4A-D57DA6EFACEA">
+<Attribute name="emb_fod_unitario" id="2E4F4C5C-E9D4-1CD7-2F4A-D57DA6EFACEA">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:59:25 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -132,7 +145,7 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="flete_unitario" id="2024D730-08D0-C25F-DDEA-30C83761FD3B">
+<Attribute name="emb_flete_unitario" id="2024D730-08D0-C25F-DDEA-30C83761FD3B">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:59:48 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -145,7 +158,7 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="seguro" id="9438E668-2311-A437-30DB-6A5882632C9E">
+<Attribute name="emb_seguro" id="9438E668-2311-A437-30DB-6A5882632C9E">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 23:00:07 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -158,7 +171,7 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_color_runt" id="5FE7E901-D38A-0EC6-77E8-CAEAFD3F3DAF">
+<Attribute name="emb_codigo_color_runt" id="5FE7E901-D38A-0EC6-77E8-CAEAFD3F3DAF">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 23:00:17 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="6AC1D356-93E0-F300-91FA-3A8D7909EF21">
+<Attribute name="etra_codigo" id="6AC1D356-93E0-F300-91FA-3A8D7909EF21">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 23:01:27 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,7 +27,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="74ECA314-45D2-4768-38F0-DF0C16374E01">
+<Attribute name="etra_empresa" id="864EB020-1057-916C-E405-E42296C9BA81">
+<createdBy>paul</createdBy>
+<createdTime>2021-04-07 23:01:52 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="etra_nombre" id="74ECA314-45D2-4768-38F0-DF0C16374E01">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 23:01:38 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -40,17 +53,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Attribute_3" id="864EB020-1057-916C-E405-E42296C9BA81">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 23:01:52 UTC</createdTime>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

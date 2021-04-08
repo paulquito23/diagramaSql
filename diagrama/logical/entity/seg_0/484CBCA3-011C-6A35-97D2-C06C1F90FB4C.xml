@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="2CF42B64-318B-6CDF-5128-CEABD40A3D3B">
+<Attribute name="es_codigo" id="2CF42B64-318B-6CDF-5128-CEABD40A3D3B">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:58:37 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,7 +27,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="B5389FC7-5168-55CE-8DF0-FB0EA88C94B1">
+<Attribute name="es_empresa" id="9C060427-F2AF-0236-200B-24A73A5BF83E">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-08 23:30:31 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="es_nombre" id="B5389FC7-5168-55CE-8DF0-FB0EA88C94B1">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:58:45 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>

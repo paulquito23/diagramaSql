@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="partida_arancelaria" id="F765920D-149C-0F7F-99CE-A138B585A3E0">
+<Attribute name="fsc_partida_arancelaria" id="F765920D-149C-0F7F-99CE-A138B585A3E0">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:13:01 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="peso_auto" id="58047A69-2B7D-621E-7DE7-B97C8111AA7B">
+<Attribute name="fsc_peso_auto" id="58047A69-2B7D-621E-7DE7-B97C8111AA7B">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:16:24 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -53,7 +53,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="n_puertas" id="A8042E64-1423-0D53-1B75-1FC9B199EDE5">
+<Attribute name="fsc_n_puertas" id="A8042E64-1423-0D53-1B75-1FC9B199EDE5">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:16:40 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -66,7 +66,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="n_ruedas" id="6C19DB46-55B1-3D63-9184-E6D3CD78C028">
+<Attribute name="fsc_n_ruedas" id="6C19DB46-55B1-3D63-9184-E6D3CD78C028">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:17:01 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -79,7 +79,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="n_ejes" id="5040851D-DC56-18EB-2231-0BF8EB5CB05B">
+<Attribute name="fsc_n_ejes" id="5040851D-DC56-18EB-2231-0BF8EB5CB05B">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:17:19 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -92,7 +92,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo_direccion" id="3C0A3F0A-DAE9-BB19-8F9B-2EE1DFA6702B">
+<Attribute name="fsc_tipo_direccion" id="3C0A3F0A-DAE9-BB19-8F9B-2EE1DFA6702B">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:17:37 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -105,7 +105,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo_motor" id="BB5A604C-219C-2EDB-CEAB-9E5BAB35F47D">
+<Attribute name="fsc_tipo_motor" id="BB5A604C-219C-2EDB-CEAB-9E5BAB35F47D">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:18:12 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -118,7 +118,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nivel_emisiones" id="EE302C2C-A49E-3B43-7FE2-5A5267F15D51">
+<Attribute name="fsc_nivel_emisiones" id="EE302C2C-A49E-3B43-7FE2-5A5267F15D51">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:18:26 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -131,7 +131,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="potencia_hp" id="C4F8FD11-F3FF-6307-976B-51F032BCC999">
+<Attribute name="fsc_potencia_hp" id="C4F8FD11-F3FF-6307-976B-51F032BCC999">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:18:41 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -144,7 +144,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="n_marchas" id="74CA7C30-9B79-4C5A-FCAB-1FF9FF7CABD4">
+<Attribute name="fsc_n_marchas" id="74CA7C30-9B79-4C5A-FCAB-1FF9FF7CABD4">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:19:26 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -156,7 +156,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="n_cilindro" id="775A01BE-B7D4-B6A6-9E5F-671B385E9F7A">
+<Attribute name="fsc_n_cilindro" id="775A01BE-B7D4-B6A6-9E5F-671B385E9F7A">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:20:45 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -169,7 +169,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="n_airbags" id="F25A4BAF-8D5C-F95B-3C72-B8C8B552E087">
+<Attribute name="fsc_n_airbags" id="F25A4BAF-8D5C-F95B-3C72-B8C8B552E087">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:21:07 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -182,7 +182,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="n_apoya_cabezas" id="13EB5643-3B77-C43D-79F2-539CE021DE07">
+<Attribute name="fsc_n_apoya_cabezas" id="13EB5643-3B77-C43D-79F2-539CE021DE07">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:21:29 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -195,7 +195,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cantidad_pasajeros" id="4935FED5-536C-59A0-D7C3-3FA716A6C406">
+<Attribute name="fsc_cantidad_pasajeros" id="4935FED5-536C-59A0-D7C3-3FA716A6C406">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:21:48 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -208,7 +208,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="carga_util" id="C5DDD2E4-240F-18FE-796D-E509E3D04502">
+<Attribute name="fsc_carga_util" id="C5DDD2E4-240F-18FE-796D-E509E3D04502">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:22:02 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -221,7 +221,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="clase_runt" id="D77C20F8-E5E2-D946-1436-AFA5D1E9B4E4">
+<Attribute name="fsc_clase_runt" id="D77C20F8-E5E2-D946-1436-AFA5D1E9B4E4">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:23:09 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -234,7 +234,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="familia" id="EAD27D7B-01A3-A341-2750-F8775EE8001F">
+<Attribute name="fsc_familia" id="EAD27D7B-01A3-A341-2750-F8775EE8001F">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:23:26 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -247,7 +247,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="energetico" id="996CCC67-19EB-6E9E-74CF-EAF120C90125">
+<Attribute name="fsc_energetico" id="996CCC67-19EB-6E9E-74CF-EAF120C90125">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:23:40 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -260,7 +260,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="combustible_runt" id="F6AF508A-FA01-C47D-49F3-1F5FB94A9737">
+<Attribute name="fsc_combustible_runt" id="F6AF508A-FA01-C47D-49F3-1F5FB94A9737">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:24:26 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -273,7 +273,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="descripcion_nacionalizacion" id="A3D527FC-1F84-B435-47A8-DE7B80DC40EB">
+<Attribute name="fsc_descripcion_nacionalizacion" id="A3D527FC-1F84-B435-47A8-DE7B80DC40EB">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:24:42 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -286,7 +286,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="linea_runt" id="F79E2FC1-9C95-2EFC-9605-D2C71EEDE047">
+<Attribute name="fsc_linea_runt" id="F79E2FC1-9C95-2EFC-9605-D2C71EEDE047">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:24:59 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -299,20 +299,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FSC" id="69D2CFAB-3022-0A88-EED4-BA49EAFAE75E">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:25:30 UTC</createdTime>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="año" id="8B6B5279-45E1-F775-E460-C18EBE6F95AD">
+<Attribute name="fsc_año" id="8B6B5279-45E1-F775-E460-C18EBE6F95AD">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:25:45 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -325,7 +312,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="autorunt" id="C1BCD28B-193E-3157-F3D5-7BD1A66CDFFD">
+<Attribute name="fsc_autorunt" id="C1BCD28B-193E-3157-F3D5-7BD1A66CDFFD">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:26:01 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -338,7 +325,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estado" id="FF2CCD15-4415-FBE8-3470-79B46D1A47D2">
+<Attribute name="fsc_estado" id="FF2CCD15-4415-FBE8-3470-79B46D1A47D2">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:26:12 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -351,7 +338,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="descripcion" id="0287017F-65F9-50A9-1758-000A8AE0C34E">
+<Attribute name="fsc_descripcion" id="0287017F-65F9-50A9-1758-000A8AE0C34E">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:26:25 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -364,7 +351,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="equipamiento_version" id="1A7F86AF-12A7-83A7-300D-04064CE56F9E">
+<Attribute name="fsc_equipamiento_version" id="1A7F86AF-12A7-83A7-300D-04064CE56F9E">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:28:49 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -377,7 +364,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="centro_costo" id="65C6ADDF-B188-0A4E-9C5E-483B450CC46E">
+<Attribute name="fsc_centro_costo" id="65C6ADDF-B188-0A4E-9C5E-483B450CC46E">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:29:10 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -390,7 +377,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="elemento" id="B7EF1250-09DD-2220-EDEB-B0B32D3C0B4E">
+<Attribute name="fsc_elemento" id="B7EF1250-09DD-2220-EDEB-B0B32D3C0B4E">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:29:29 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -403,7 +390,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_marketing" id="990B5B78-8806-F27C-A4DB-A3D5E8841139">
+<Attribute name="fsc_nombre_marketing" id="990B5B78-8806-F27C-A4DB-A3D5E8841139">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:29:47 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -429,7 +416,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="modelo_agrupador" id="D5E1416A-35E1-DD62-14FC-6920D44D98A2">
+<Attribute name="fsc_modelo_agrupador" id="D5E1416A-35E1-DD62-14FC-6920D44D98A2">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:30:29 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -442,7 +429,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="modelo_garantias" id="651D3F9D-604F-434D-1527-3AFF6ECDD8AD">
+<Attribute name="fsc_modelo_garantias" id="651D3F9D-604F-434D-1527-3AFF6ECDD8AD">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:30:42 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -455,7 +442,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="modelo_comercial" id="AAABD894-9280-5AE3-1A05-36E182F5E9F6">
+<Attribute name="fsc_modelo_comercial" id="AAABD894-9280-5AE3-1A05-36E182F5E9F6">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:31:13 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -468,7 +455,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="homologacion" id="3558ED3A-71E9-C10D-D399-7F6082F7B279">
+<Attribute name="fsc_homologacion" id="3558ED3A-71E9-C10D-D399-7F6082F7B279">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:31:26 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -481,7 +468,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_certificacion_emisiones" id="EC1EFC3A-83C6-1DCC-BC2B-20E0AB28B38A">
+<Attribute name="fsc_codigo_certificacion_emisiones" id="EC1EFC3A-83C6-1DCC-BC2B-20E0AB28B38A">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:31:36 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -494,7 +481,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="clase_motorizacion" id="028D64A2-CAC5-A91F-3561-EF141BF6F20C">
+<Attribute name="fsc_clase_motorizacion" id="028D64A2-CAC5-A91F-3561-EF141BF6F20C">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:31:47 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
