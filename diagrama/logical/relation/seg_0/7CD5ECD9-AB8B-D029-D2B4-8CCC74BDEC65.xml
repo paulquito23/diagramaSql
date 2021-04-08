@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="751D8F81-97AA-67A2-7D95-FD9898EE8D6E">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:49:47 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_60" directorySegmentName="seg_0" id="7CD5ECD9-AB8B-D029-D2B4-8CCC74BDEC65">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:42:50 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
 <sourcePk>F273A84D-5B7C-D08F-9C6F-E058F556BAF1</sourcePk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>1E21F541-FA6F-36BD-42C1-AF1C2B9C46D6</sourceEntity>

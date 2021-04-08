@@ -329,48 +329,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id3" id="82AC468B-C00F-78A5-60D9-C76BBBE23370">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 22:16:50 UTC</createdTime>
-<generatorID>5F9F82EC-554A-3C21-4F09-531BB66C9113</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>68896D08-9878-8D6B-CA4E-5A2C8062DE05</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id4" id="BD66FCCC-D017-C079-2552-32EBFBCFC0A6">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 22:17:36 UTC</createdTime>
-<generatorID>01361B71-C963-4CE3-FE6A-D8DA7F6A711E</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>4A79F04A-F40A-9B8D-37B9-82AE598E20E4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cod_anio" id="EEF1A012-D388-0D5D-33AE-175A2421AAD7">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 22:18:32 UTC</createdTime>
-<generatorID>60EDEF58-950B-487D-B8F3-A7957FA4EF5D</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>11DCC1AE-19E3-AB81-6DD3-1DD11BFF80B6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C8B13008-82E1-F7D7-7B97-DB10F92CE77C" name="liberacion PK">

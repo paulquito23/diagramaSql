@@ -15,54 +15,55 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="vin" id="00006612-67FA-B794-8C70-133D74424CE2">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:48:56 UTC</createdTime>
+<Attribute name="rec_codigo" id="B6F79B08-DEC6-98EA-3EBF-B895DB2FC1E0">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:00:48 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cantidad" id="74C99F7C-2026-D622-2E75-E69A9F0225B5">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:49:10 UTC</createdTime>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cod_anio" id="7A8BC79D-A111-C515-20BB-F49B596D477C">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:00:30 UTC</createdTime>
-<generatorID>79B7A78F-2B51-C036-5276-63E1886F0283</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>11DCC1AE-19E3-AB81-6DD3-1DD11BFF80B6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id" id="7FC4D6B7-8E04-AB29-1E48-3E4D0134B762">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:00:59 UTC</createdTime>
-<generatorID>45749640-B84B-8D00-954F-D7789906DEEA</generatorID>
+<Attribute name="lpre_codigo" id="7231D3B8-338E-81F9-A32C-5F11D0C4AFF9">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:07:52 UTC</createdTime>
+<generatorID>409730BA-4189-2B29-67CC-AFE9712ED746</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
 <referedAttribute>7B98D6E1-ACDA-E014-E532-6D6A8E5FE7B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vea_anio" id="32C1F441-F88C-ED23-102E-4BD0E5938EA9">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:08:04 UTC</createdTime>
+<generatorID>152CC0CF-6F95-8548-6C06-7BAC37594068</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>04B10478-8F76-F420-E2F8-E5754F3E525A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ver_codigo" id="10D0BCAA-712F-9C02-26D8-AA599E1EB38B">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:08:04 UTC</createdTime>
+<generatorID>152CC0CF-6F95-8548-6C06-7BAC37594068</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>A4359063-D772-F606-FF7E-C66C6FF9ACF7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -79,7 +80,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>00006612-67FA-B794-8C70-133D74424CE2</attributeRef>
+<attributeRef>B6F79B08-DEC6-98EA-3EBF-B895DB2FC1E0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

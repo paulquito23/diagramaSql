@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cod_version" id="9023689C-141A-0429-6EAC-FDDF175569CD">
+<Attribute name="ver_codigo" id="9023689C-141A-0429-6EAC-FDDF175569CD">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 20:39:26 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_version" id="5C075398-9E21-1CC0-41B8-83FE07F4FE01">
+<Attribute name="ver_nombre" id="5C075398-9E21-1CC0-41B8-83FE07F4FE01">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 20:39:28 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -40,15 +40,15 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cod_modelo" id="933EABB7-66A1-2D9A-B988-AEB33E89B927">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:59:56 UTC</createdTime>
-<generatorID>E951CE56-EE1B-31E8-B264-8C9811F37768</generatorID>
+<Attribute name="mod_codigo" id="1DC9908F-DF80-30EA-3EC6-5A277D5582C2">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:34:45 UTC</createdTime>
+<generatorID>6AEF306D-69AC-F7F1-360A-796C03A6C4F7</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<referedAttribute>87593E72-5DCC-E563-CF06-94DD0D26A63C</referedAttribute>
+<referedAttribute>3FF95A54-149C-368B-6C1C-C9E604C6F3AE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

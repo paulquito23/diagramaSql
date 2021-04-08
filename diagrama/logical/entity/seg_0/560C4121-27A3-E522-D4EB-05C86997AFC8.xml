@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="560C4121-27A3-E522-D4EB-05C86997AFC8" name="pedido_fabrica">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="560C4121-27A3-E522-D4EB-05C86997AFC8" name="pedido">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:41:38 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="A6984A79-CE84-1F6E-6749-B76682C16015">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:42:05 UTC</createdTime>
+<Attribute name="ped_empresa" id="CF744B9D-16CB-3358-BD94-43DDCCEA9835">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:14:40 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -27,7 +27,43 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Fecha" id="922AA9B8-835E-FFA6-6B2B-71C968B008A0">
+<Attribute name="ped_codigo" id="B66ADE05-D2EF-7125-D6EC-6550BB966BD4">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:14:54 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ped_periodo" id="23310864-919B-49CD-C67F-88022C28F239">
+<createdBy>paul</createdBy>
+<createdTime>2021-04-07 21:42:30 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ped_mes" id="8D70E9B3-0C05-F760-BE3D-C735A3B12D03">
+<createdBy>paul</createdBy>
+<createdTime>2021-04-07 21:42:47 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ped_fecha" id="922AA9B8-835E-FFA6-6B2B-71C968B008A0">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:42:17 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -40,27 +76,15 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="anio" id="23310864-919B-49CD-C67F-88022C28F239">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:42:30 UTC</createdTime>
+<Attribute name="prov_codigo" id="4FF4AE66-DB9B-08F0-13D6-69D026762C6C">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:17:15 UTC</createdTime>
+<generatorID>B8A3D7E9-1977-BBDD-3790-9565F97363E9</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Mes" id="8D70E9B3-0C05-F760-BE3D-C735A3B12D03">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:42:47 UTC</createdTime>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>67E141E6-32A1-14BE-5683-B3768CCBC705</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -77,7 +101,10 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A6984A79-CE84-1F6E-6749-B76682C16015</attributeRef>
+<attributeRef>CF744B9D-16CB-3358-BD94-43DDCCEA9835</attributeRef>
+<attributeRef>23310864-919B-49CD-C67F-88022C28F239</attributeRef>
+<attributeRef>8D70E9B3-0C05-F760-BE3D-C735A3B12D03</attributeRef>
+<attributeRef>4FF4AE66-DB9B-08F0-13D6-69D026762C6C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

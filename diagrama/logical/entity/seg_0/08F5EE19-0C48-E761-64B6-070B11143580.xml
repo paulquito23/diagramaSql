@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08F5EE19-0C48-E761-64B6-070B11143580" name="lista precios">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08F5EE19-0C48-E761-64B6-070B11143580" name="lista_precios">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 20:43:56 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -15,7 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="7B98D6E1-ACDA-E014-E532-6D6A8E5FE7B2">
+<Attribute name="lpre_empresa" id="E16F5F12-DED5-5D4D-75D4-BA59AE852726">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:07:01 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_codigo" id="7B98D6E1-ACDA-E014-E532-6D6A8E5FE7B2">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 20:58:08 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,7 +40,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="valor" id="AAD94835-2F53-B0D4-570B-66238C358811">
+<Attribute name="lpre_valor" id="AAD94835-2F53-B0D4-570B-66238C358811">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 20:58:11 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -38,6 +51,149 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_nombre" id="DF8EF24B-C465-7F3C-75F3-674C0ADEF9A3">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:06:40 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_valor_venta_publico" id="B28DE064-C6B5-B41E-9259-14CAD28E7140">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:21:07 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_descuento" id="D67070C3-FB13-2783-74DD-019315B749B9">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:21:30 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_descuento_porc" id="64DA73E2-AE70-CE1C-11D9-796E60BFC8A3">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:21:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_marge_adicional_porc" id="F108E614-C309-6E9B-71FB-33A736F153C5">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:21:59 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_iva_porc" id="21F301BB-B610-E0ED-7C7D-C6B6A6E3DEA3">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:22:28 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_ipo_consumo_porc" id="B2DEA7A3-A71F-C8E5-63A1-CCA00C40B29A">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:23:12 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_total" id="632C90A1-2834-DB8F-A57F-C8DB8F178890">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:23:32 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_fecha_desde" id="452EC23F-B561-6ADE-DDCD-FA4F1DC99ADA">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:23:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_fecha_hasta" id="ADFA417A-16C0-68F1-6EFA-081C73469FFA">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:24:00 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lpre_opbservaciones" id="E289D76D-CEAA-155E-0E70-BE119EF42245">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:24:19 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

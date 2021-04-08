@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3E60DE4-C776-6763-D84E-9F318F49E726" name="parametros_fsc">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3E60DE4-C776-6763-D84E-9F318F49E726" name="eparametro_fsc">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:37:06 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -15,6 +15,34 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fsc_codigo" id="BA854D6D-96BF-5657-6771-3F1FA148CD40">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:49:51 UTC</createdTime>
+<generatorID>CE432EDF-8F38-B529-DBF3-6E522AF9C75C</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>4A79F04A-F40A-9B8D-37B9-82AE598E20E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="epar_codigo" id="DA19A13E-4D5C-53B7-649F-DC2ABBD834EE">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:49:03 UTC</createdTime>
+<generatorID>10FE50EA-3033-316B-CADF-1844E5510DC1</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>D8A7EE00-AD26-D329-F887-285C144417AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="secuencia" id="A8E94045-7FD6-7BBE-234B-C6C5C61124F7">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:37:24 UTC</createdTime>
@@ -22,7 +50,9 @@
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

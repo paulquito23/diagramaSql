@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="68896D08-9878-8D6B-CA4E-5A2C8062DE05">
+<Attribute name="emp_codigo" id="68896D08-9878-8D6B-CA4E-5A2C8062DE05">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:00:17 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,9 +27,35 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="DA51E829-F4D2-0F36-6680-973352766303">
+<Attribute name="emp_nombre_comercial" id="DA51E829-F4D2-0F36-6680-973352766303">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:00:29 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_ruc" id="F6444333-7439-52E1-9887-269063F0FC7D">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:13:04 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_correo_representante" id="65988C3A-A79A-C031-6C27-9F5E0D6709EF">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:13:52 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>

@@ -15,40 +15,27 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cod_anio" id="11DCC1AE-19E3-AB81-6DD3-1DD11BFF80B6">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 20:40:29 UTC</createdTime>
+<Attribute name="ver_codigo" id="A4359063-D772-F606-FF7E-C66C6FF9ACF7">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:36:22 UTC</createdTime>
+<generatorID>DB73C7F8-57A0-A4E9-AC6F-5F8E680882BC</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
+<referedAttribute>9023689C-141A-0429-6EAC-FDDF175569CD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="anio" id="04B10478-8F76-F420-E2F8-E5754F3E525A">
+<Attribute name="vea_anio" id="04B10478-8F76-F420-E2F8-E5754F3E525A">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 20:40:44 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cod_version" id="EBD122CC-28E4-400E-A10F-671304F1227F">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:00:07 UTC</createdTime>
-<generatorID>56FEE52E-EDAD-1C97-DEF6-58C0CFF822DF</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>9023689C-141A-0429-6EAC-FDDF175569CD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -65,7 +52,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>11DCC1AE-19E3-AB81-6DD3-1DD11BFF80B6</attributeRef>
+<attributeRef>04B10478-8F76-F420-E2F8-E5754F3E525A</attributeRef>
+<attributeRef>A4359063-D772-F606-FF7E-C66C6FF9ACF7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

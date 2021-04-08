@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="55678D76-4166-B79F-55F0-8A1593211194">
+<Attribute name="acc_codigo" id="55678D76-4166-B79F-55F0-8A1593211194">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 20:50:50 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,9 +27,48 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="B76CA3EE-7D52-3C9A-E922-E05548F2D915">
+<Attribute name="acc_empresa" id="B76CA3EE-7D52-3C9A-E922-E05548F2D915">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 20:50:59 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acc_nombre" id="0C640877-FF02-03C4-6586-B85BD4C7B0CD">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:03:26 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acc_precio" id="2A8421AE-5780-E824-FA72-61BC88905BC2">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:03:48 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acc_imagen" id="EB69C744-1E7E-8BF1-2CEC-F3DD27550ACC">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:04:12 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>

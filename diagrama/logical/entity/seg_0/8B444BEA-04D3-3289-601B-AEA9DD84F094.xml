@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B444BEA-04D3-3289-601B-AEA9DD84F094" name="detalle">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B444BEA-04D3-3289-601B-AEA9DD84F094" name="dreceta">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 20:43:39 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -24,26 +24,27 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vin" id="E627AD9F-38A0-8966-599C-5953228C9C74">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:01:44 UTC</createdTime>
-<generatorID>8C3B3B2C-4947-7DE9-3BF6-8DC0DB2B29FA</generatorID>
+<Attribute name="rec_codigo" id="524BD368-D36A-A0BC-51D5-456C03FDF139">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:02:33 UTC</createdTime>
+<generatorID>05D4D806-E1A2-A93E-60BD-54B3FD66E45F</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<referedAttribute>00006612-67FA-B794-8C70-133D74424CE2</referedAttribute>
+<referedAttribute>B6F79B08-DEC6-98EA-3EBF-B895DB2FC1E0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="9DBCDA68-3EC3-A63D-B57F-E91BC5C50FD5">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:02:33 UTC</createdTime>
-<generatorID>BD04DF25-F01F-1DA9-0606-7845EAD09101</generatorID>
+<Attribute name="acc_codigo" id="0CE9CED3-EFB3-ACEC-7E3E-AF763C47B4AF">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:04:37 UTC</createdTime>
+<generatorID>4112D831-76D4-A2C5-F30B-42A5B98B3023</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -66,6 +67,8 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>74832883-CC86-1DF2-6292-11D32918419A</attributeRef>
+<attributeRef>524BD368-D36A-A0BC-51D5-456C03FDF139</attributeRef>
+<attributeRef>0CE9CED3-EFB3-ACEC-7E3E-AF763C47B4AF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

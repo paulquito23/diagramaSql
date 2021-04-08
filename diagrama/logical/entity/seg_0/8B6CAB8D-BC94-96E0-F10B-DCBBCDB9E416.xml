@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B6CAB8D-BC94-96E0-F10B-DCBBCDB9E416" name="Proforma_parametros_generales">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B6CAB8D-BC94-96E0-F10B-DCBBCDB9E416" name="gparametro_proforma">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:46:02 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -15,22 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="A3433304-E689-C27A-44D0-DFF5323ADD12">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:46:18 UTC</createdTime>
+<Attribute name="gpar_codigo" id="FE0D78A7-8275-A7A5-20D3-8867BFDF76C5">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:42:50 UTC</createdTime>
+<generatorID>7CD5ECD9-AB8B-D029-D2B4-8CCC74BDEC65</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
+<referedAttribute>A3711705-F430-96C6-1C40-8D25CF2BDFF8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="F21FC624-B7F1-630F-3BA4-A696D8A1D974">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:55:16 UTC</createdTime>
-<generatorID>9D911842-DC5B-F27A-D737-BA5C37D329B5</generatorID>
+<Attribute name="pro_codigo" id="AB086FE5-3516-C5D9-4A27-20E26151D068">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:42:58 UTC</createdTime>
+<generatorID>916E3304-5494-E6C3-E2E2-767D7A4468CC</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -41,15 +43,28 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="53518956-C98F-E589-9F9B-F88C08E3B603">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 22:19:31 UTC</createdTime>
-<generatorID>751D8F81-97AA-67A2-7D95-FD9898EE8D6E</generatorID>
+<Attribute name="gpp_secuencia" id="B457B144-4EDA-BEB9-C78B-BFF018785CFA">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:43:19 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<referedAttribute>A3711705-F430-96C6-1C40-8D25CF2BDFF8</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_codigo" id="91CD2A8B-0798-61B6-6545-01995C534CBF">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:28:04 UTC</createdTime>
+<generatorID>916E3304-5494-E6C3-E2E2-767D7A4468CC</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>A61AF81D-429A-A26A-7340-C73E14A37BDD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -66,7 +81,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A3433304-E689-C27A-44D0-DFF5323ADD12</attributeRef>
+<attributeRef>FE0D78A7-8275-A7A5-20D3-8867BFDF76C5</attributeRef>
+<attributeRef>AB086FE5-3516-C5D9-4A27-20E26151D068</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
