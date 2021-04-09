@@ -92,20 +92,6 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="emb_codigo" id="44149580-B73B-941D-BE3A-22929F47E03A">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 23:17:23 UTC</createdTime>
-<generatorID>EF119145-C31D-1CC3-94D0-2B02BCCBF2B3</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>D4150F7A-728F-3F39-B8B2-A5D2F6F3E9B5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3F2B1753-9B4F-64F3-85E1-B8124B6A355F" name="utilizacion PK">

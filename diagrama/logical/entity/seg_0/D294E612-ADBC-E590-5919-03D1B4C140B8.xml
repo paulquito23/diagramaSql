@@ -287,48 +287,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="lc_codigo" id="03A0FAA7-9250-2B74-22B1-0D981A97C47C">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 22:16:08 UTC</createdTime>
-<generatorID>B916C21F-D0A8-51C8-07C6-EAB7FD2CC9FB</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>9BDC63CA-8439-9451-6A61-F0843751B6A6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ban_codigo" id="E0E88F83-E40A-BBEE-ECAC-C27C42CB0DE6">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 22:16:25 UTC</createdTime>
-<generatorID>AB3AD802-F139-2B17-C1D8-03EED61B554D</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>6C1A37A7-E6F0-6F4B-9735-863AD0CCA36C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="es_codigo" id="44ECCB63-C4B7-07E1-9031-15A0A69CBFF5">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 22:16:44 UTC</createdTime>
-<generatorID>11B4DCAB-268D-3A33-1597-8C9AB2076E5C</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>2CF42B64-318B-6CDF-5128-CEABD40A3D3B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C8B13008-82E1-F7D7-7B97-DB10F92CE77C" name="liberacion PK">

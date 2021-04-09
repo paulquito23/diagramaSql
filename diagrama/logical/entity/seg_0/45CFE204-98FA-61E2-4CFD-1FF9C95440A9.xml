@@ -53,34 +53,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="uti_codigo" id="BD8A5498-A6CC-B5AC-664C-0DF4A4B60DC4">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 22:15:26 UTC</createdTime>
-<generatorID>696C3B30-B93B-25EE-D97C-9896F58AAE92</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>C8314543-6180-C603-6F08-1A543B56E196</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ban_codigo" id="672CF06C-D0F2-865E-8524-A256A9D7736D">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 22:15:58 UTC</createdTime>
-<generatorID>C0AD5302-2ABE-8472-8221-63FA841DF4A6</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>6C1A37A7-E6F0-6F4B-9735-863AD0CCA36C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="92838811-0614-637F-6EC7-FEF309F4CC55" name="LC PK">

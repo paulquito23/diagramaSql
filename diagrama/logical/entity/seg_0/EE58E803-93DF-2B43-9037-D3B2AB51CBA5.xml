@@ -590,6 +590,149 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="fsc_tipo_auto" id="3F67A94E-73AC-D3C3-712E-BB64E3FA5CE4">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 20:37:54 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_tipo_aspiracion" id="BFF090A3-8F31-8DF7-0DA7-00829DBE9E94">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:00:17 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_tipo_produccion" id="0E932638-D07D-5032-9475-CE357DB6CFA5">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:01:24 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_nivel_emisiones_1" id="7DF87ECE-FC1F-1A2C-9E5E-79B262837A38">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:01:46 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_con_aire" id="0731A485-92B2-8926-6F2F-3F07A7A3CB8E">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:02:14 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_tipo_freno" id="056BD64C-E28D-4B28-73A3-5687D30FCC24">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:03:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_transmision" id="7F1C9E10-90F8-4DB1-349A-886CAA9836A9">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:03:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_codigo_clase_runt" id="DB0EB543-34ED-5858-892B-7DEA3999C966">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:04:27 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_cilindraje" id="2C509D26-0478-48D7-400D-CC400422E2F1">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:05:17 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_cod_traccion" id="3B972DED-6C93-C8CC-BD62-B0FFBE0FC5A9">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:06:05 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_tipo_carroceria" id="8002557A-21CE-998B-E715-1217C5A55069">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:06:28 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C53886B2-EDCA-5572-88B9-CC240F17486E" name="fsc PK">

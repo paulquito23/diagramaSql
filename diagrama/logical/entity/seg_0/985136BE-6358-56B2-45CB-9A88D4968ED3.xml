@@ -54,20 +54,6 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ubi_codigo" id="FB07446F-DBA3-BF8C-B47D-9A591E8238D3">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 23:05:37 UTC</createdTime>
-<generatorID>18CE9EB3-61F3-0358-C2BE-1A56E1EB9FF4</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>40D17BDD-80F5-3255-D124-1D03700E1CFE</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6AC9576E-0ABF-DFA6-1D91-7AEE491525CB" name="Lugar PK">

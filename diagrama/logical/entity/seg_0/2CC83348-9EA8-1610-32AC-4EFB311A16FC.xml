@@ -121,62 +121,6 @@
 <dataTypeSize>500</dataTypeSize>
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="etra_codigo" id="330C539B-13D9-E784-DAF2-24021169B662">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 23:13:35 UTC</createdTime>
-<generatorID>94A0ED81-5E73-E400-B053-579748F47893</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>6AC1D356-93E0-F300-91FA-3A8D7909EF21</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="lug_codigo" id="DB314AB0-24E0-3819-A9A8-FFDA73BBF4E6">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 23:14:56 UTC</createdTime>
-<generatorID>7CFBB07A-CAF5-82A3-644E-F499E2D27180</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>FD2EAE09-A767-ADA2-1B37-B4322B67DEBD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="esf_codigo" id="6F2D8F76-1E72-AB62-6AAE-68E2A782378C">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 23:16:25 UTC</createdTime>
-<generatorID>25DCD5B5-7BDB-9CC4-A7F0-29F6F509BCEF</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>3AF6BDE7-B097-E718-78C6-17924D457AF5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="emb_codigo" id="F44298F6-15DD-9F86-11AA-7BD0FA95488D">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 23:17:05 UTC</createdTime>
-<generatorID>CA700E36-B50A-EBA6-23A3-E8B5C712BD10</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>D4150F7A-728F-3F39-B8B2-A5D2F6F3E9B5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B6497AEB-E54A-AB88-7BE6-E465B9E8B2C9" name="embarque_lugar PK">

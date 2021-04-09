@@ -203,6 +203,74 @@
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
 <referedAttribute>05DEA10A-DBEF-E392-251F-3774ADA18E79</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="epar_codigo" id="33B808F5-DBEF-2425-FFE4-4DCBFFBF6022">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:17:30 UTC</createdTime>
+<generatorID>B05F44EC-401B-3C50-F192-287247952D72</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>D8A7EE00-AD26-D329-F887-285C144417AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="epar_empresa" id="91AA1E5F-1782-709B-A443-61DF7BF5998D">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:17:30 UTC</createdTime>
+<generatorID>B05F44EC-401B-3C50-F192-287247952D72</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>45F98779-FBC0-1F9C-3CC0-3A8B04334C99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dpro_codigo_color_exterior" id="76285075-A7C3-CA96-0FAB-BD5809D14D04">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:17:48 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dpro_descripcion_color_exterior" id="004FDC8A-7D16-DA5C-B6E6-AB9BC0352842">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:18:15 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dpro_pais_origen" id="F109D9C2-BBD6-842B-654D-A66DB6077E7A">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-09 21:19:49 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
