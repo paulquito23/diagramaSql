@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="766E28C8-1D03-3F02-0F24-0AA5516009F0" name="centro_costo">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:08:17 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCAFA2E1-EC9D-3FBC-AC18-8FB6EC571CBC" name="proforma_observaciones">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 15:06:09 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -15,44 +15,33 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ctrc_codigo" id="BB9AEE0C-07C0-222D-9D6C-45C53092B3E6">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:09:50 UTC</createdTime>
+<Attribute name="pro_codigo" id="2CECA415-989D-0334-5C3B-C16CB0DEB06E">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 15:06:35 UTC</createdTime>
+<generatorID>1A9F76AF-FE7B-3C03-7505-8DD787AD1C6E</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
+<referedAttribute>D0C8F65D-4816-1328-6821-DBAC9229E711</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ctrc_nombre" id="657A0AE4-D8BA-8567-DA2F-1312F390F6EA">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:10:06 UTC</createdTime>
+<Attribute name="pro_empresa" id="4FAF4BB3-DB7F-474E-1D2D-564B083EB7E0">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 15:06:35 UTC</createdTime>
+<generatorID>1A9F76AF-FE7B-3C03-7505-8DD787AD1C6E</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A61AF81D-429A-A26A-7340-C73E14A37BDD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="04ADAA89-0DAC-79F3-2D59-247D3AD893BB" name="centro_costo PK">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:10:00 UTC</createdTime>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>BB9AEE0C-07C0-222D-9D6C-45C53092B3E6</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

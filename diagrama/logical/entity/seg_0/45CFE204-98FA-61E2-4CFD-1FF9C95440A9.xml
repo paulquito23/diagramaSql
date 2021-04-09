@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Iid" id="9BDC63CA-8439-9451-6A61-F0843751B6A6">
+<Attribute name="lc_codigo" id="9BDC63CA-8439-9451-6A61-F0843751B6A6">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:01:25 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero" id="5F1F003C-FCD3-0A40-5DFB-10501E8B2E23">
+<Attribute name="lc_numero" id="5F1F003C-FCD3-0A40-5DFB-10501E8B2E23">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:01:36 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_vigencia" id="C6B7CC0E-6F8F-006F-68A1-14F83F7B2596">
+<Attribute name="lc_fecha_vigencia" id="C6B7CC0E-6F8F-006F-68A1-14F83F7B2596">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:01:47 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -53,7 +53,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="BD8A5498-A6CC-B5AC-664C-0DF4A4B60DC4">
+<Attribute name="uti_codigo" id="BD8A5498-A6CC-B5AC-664C-0DF4A4B60DC4">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:15:26 UTC</createdTime>
 <generatorID>696C3B30-B93B-25EE-D97C-9896F58AAE92</generatorID>
@@ -67,7 +67,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="672CF06C-D0F2-865E-8524-A256A9D7736D">
+<Attribute name="ban_codigo" id="672CF06C-D0F2-865E-8524-A256A9D7736D">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:15:58 UTC</createdTime>
 <generatorID>C0AD5302-2ABE-8472-8221-63FA841DF4A6</generatorID>

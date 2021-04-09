@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="63388CC9-B1F3-7392-8B9A-0F006256F7C6">
+<Attribute name="lib_codigo" id="63388CC9-B1F3-7392-8B9A-0F006256F7C6">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:04:02 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vim" id="89CC6260-D600-2768-614B-8F23E7BBBF2A">
+<Attribute name="lib_vim" id="89CC6260-D600-2768-614B-8F23E7BBBF2A">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:04:34 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="anio_reservar" id="9AAC5EE2-2C81-4419-7BD8-30877BE566A2">
+<Attribute name="lib_anio_reservar" id="9AAC5EE2-2C81-4419-7BD8-30877BE566A2">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:08:31 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -53,7 +53,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="color_exterior" id="B0013B1B-BD0C-F373-3729-F66A606D027B">
+<Attribute name="lib_color_exterior" id="B0013B1B-BD0C-F373-3729-F66A606D027B">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:10:46 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -66,7 +66,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero_importacion" id="E6A29953-DCC7-83EE-3E9B-AF443A16AF49">
+<Attribute name="lib_numero_importacion" id="E6A29953-DCC7-83EE-3E9B-AF443A16AF49">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:10:56 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -79,7 +79,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero_factura_wholesale" id="6E7BB861-DDC7-9DAE-5B61-CE1E0221A359">
+<Attribute name="lib_numero_factura_wholesale" id="6E7BB861-DDC7-9DAE-5B61-CE1E0221A359">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:11:06 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -92,7 +92,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_factura_wholesale" id="8078AE0B-DBC4-6AF0-A026-6C2CE255A8C5">
+<Attribute name="lib_fecha_factura_wholesale" id="8078AE0B-DBC4-6AF0-A026-6C2CE255A8C5">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:11:21 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -105,7 +105,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FOB_unitario" id="3DF4879A-4C71-2606-49C8-90816174256E">
+<Attribute name="lib_fob_unitario" id="3DF4879A-4C71-2606-49C8-90816174256E">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:11:41 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -118,7 +118,7 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="flete_unitario" id="4536D135-7A0F-867E-3E47-06A9437849CA">
+<Attribute name="lib_flete_unitario" id="4536D135-7A0F-867E-3E47-06A9437849CA">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:11:57 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -131,7 +131,7 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="seguro" id="5B61D704-C72E-BB8A-64BD-BED4B3EC4A1F">
+<Attribute name="lib_seguro" id="5B61D704-C72E-BB8A-64BD-BED4B3EC4A1F">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:12:07 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -144,7 +144,7 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="total_vehiculo" id="E7EEE6BC-E42F-D18D-6663-EA8110B3E5E4">
+<Attribute name="lib_total_vehiculo" id="E7EEE6BC-E42F-D18D-6663-EA8110B3E5E4">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:12:18 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -157,7 +157,7 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero_documento_transporte" id="DD62AFA5-2793-1C30-9898-CD2BBE9A701B">
+<Attribute name="lib_numero_documento_transporte" id="DD62AFA5-2793-1C30-9898-CD2BBE9A701B">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:12:27 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -170,7 +170,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_documento_transporte" id="38BDD312-17F4-C05C-99BA-71EF2B1666BE">
+<Attribute name="lib_fecha_documento_transporte" id="38BDD312-17F4-C05C-99BA-71EF2B1666BE">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:12:39 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -183,7 +183,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_apertura" id="2C14AE16-8D48-AF71-6827-6D95EE9AD086">
+<Attribute name="lib_fecha_apertura" id="2C14AE16-8D48-AF71-6827-6D95EE9AD086">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:12:49 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -196,7 +196,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="bono_prenda" id="36120C1F-96D4-C65B-46E1-ED13810F22F7">
+<Attribute name="lib_bono_prenda" id="36120C1F-96D4-C65B-46E1-ED13810F22F7">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:13:03 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -209,7 +209,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_bono" id="0E17DB77-605F-F2AA-776C-C1F2D80D7C6C">
+<Attribute name="lib_fecha_bono" id="0E17DB77-605F-F2AA-776C-C1F2D80D7C6C">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:13:17 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -222,7 +222,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_recibo" id="B7761B9C-6C04-1921-F979-719D9F62CB28">
+<Attribute name="lib_fecha_recibo" id="B7761B9C-6C04-1921-F979-719D9F62CB28">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:13:38 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -235,7 +235,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="n_recibido_caja" id="D222EB73-89F4-6326-54C4-6D1E20345227">
+<Attribute name="lib_n_recibido_caja" id="D222EB73-89F4-6326-54C4-6D1E20345227">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:13:52 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -248,7 +248,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_envio_carta" id="031AB12D-7F5B-E957-4607-1439619C3355">
+<Attribute name="lib_fecha_envio_carta" id="031AB12D-7F5B-E957-4607-1439619C3355">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:14:04 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -261,7 +261,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_liberacion_banco" id="F1364E53-3586-C985-0D0E-856995898EC5">
+<Attribute name="lib_fecha_liberacion_banco" id="F1364E53-3586-C985-0D0E-856995898EC5">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:14:15 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -274,7 +274,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="observacion" id="D231BB8D-9AD8-A29E-580D-43F4861DB42F">
+<Attribute name="lib_observacion" id="D231BB8D-9AD8-A29E-580D-43F4861DB42F">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:14:25 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -287,7 +287,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Iid" id="03A0FAA7-9250-2B74-22B1-0D981A97C47C">
+<Attribute name="lc_codigo" id="03A0FAA7-9250-2B74-22B1-0D981A97C47C">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:16:08 UTC</createdTime>
 <generatorID>B916C21F-D0A8-51C8-07C6-EAB7FD2CC9FB</generatorID>
@@ -301,7 +301,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="E0E88F83-E40A-BBEE-ECAC-C27C42CB0DE6">
+<Attribute name="ban_codigo" id="E0E88F83-E40A-BBEE-ECAC-C27C42CB0DE6">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:16:25 UTC</createdTime>
 <generatorID>AB3AD802-F139-2B17-C1D8-03EED61B554D</generatorID>
@@ -315,7 +315,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="44ECCB63-C4B7-07E1-9031-15A0A69CBFF5">
+<Attribute name="es_codigo" id="44ECCB63-C4B7-07E1-9031-15A0A69CBFF5">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:16:44 UTC</createdTime>
 <generatorID>11B4DCAB-268D-3A33-1597-8C9AB2076E5C</generatorID>

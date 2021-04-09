@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3E60DE4-C776-6763-D84E-9F318F49E726" name="eparametro_fsc">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:37:06 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59843585-B03E-469D-BB65-E62B0711F84E" name="proforma_documento">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 15:10:24 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -15,59 +15,58 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="fsc_codigo" id="BA854D6D-96BF-5657-6771-3F1FA148CD40">
+<Attribute name="pdoc_secuencia" id="FCEAD62A-43CB-0366-42B2-2FB413088906">
 <createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 21:49:51 UTC</createdTime>
-<generatorID>CE432EDF-8F38-B529-DBF3-6E522AF9C75C</generatorID>
+<createdTime>2021-04-09 15:10:36 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<referedAttribute>4A79F04A-F40A-9B8D-37B9-82AE598E20E4</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_codigo" id="E715364F-2F15-0E09-DA4C-B8EAF7A8AAFE">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 15:11:00 UTC</createdTime>
+<generatorID>56D52A4E-D5F5-D564-00A1-73B4AE67269E</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>D0C8F65D-4816-1328-6821-DBAC9229E711</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="epar_codigo" id="DA19A13E-4D5C-53B7-649F-DC2ABBD834EE">
+<Attribute name="pro_empresa" id="81D205B8-4356-5802-B11D-FCC97CD1D659">
 <createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 21:49:03 UTC</createdTime>
-<generatorID>10FE50EA-3033-316B-CADF-1844E5510DC1</generatorID>
+<createdTime>2021-04-09 15:11:00 UTC</createdTime>
+<generatorID>56D52A4E-D5F5-D564-00A1-73B4AE67269E</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<referedAttribute>D8A7EE00-AD26-D329-F887-285C144417AB</referedAttribute>
+<referedAttribute>A61AF81D-429A-A26A-7340-C73E14A37BDD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="secuencia" id="A8E94045-7FD6-7BBE-234B-C6C5C61124F7">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:37:24 UTC</createdTime>
+<Attribute name="doc_codigo" id="D1C4706E-8314-4512-D983-831447F65B87">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 15:11:10 UTC</createdTime>
+<generatorID>FB4CF621-9C5E-7344-D900-DA818DB89A8E</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
+<referedAttribute>9D3C50EE-635E-6092-315C-5B973E8C80D8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="64617352-7C0A-5550-8967-AD195D184F14" name="parametros_fsc PK">
-<createdBy>paul</createdBy>
-<createdTime>2021-04-07 21:37:32 UTC</createdTime>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>A8E94045-7FD6-7BBE-234B-C6C5C61124F7</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

@@ -41,34 +41,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vea_anio" id="32C1F441-F88C-ED23-102E-4BD0E5938EA9">
-<createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 22:08:04 UTC</createdTime>
-<generatorID>152CC0CF-6F95-8548-6C06-7BAC37594068</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>04B10478-8F76-F420-E2F8-E5754F3E525A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ver_codigo" id="10D0BCAA-712F-9C02-26D8-AA599E1EB38B">
-<createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 22:08:04 UTC</createdTime>
-<generatorID>152CC0CF-6F95-8548-6C06-7BAC37594068</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>A4359063-D772-F606-FF7E-C66C6FF9ACF7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B34BE687-0D41-3037-73E4-E404766FDC8E" name="receta PK">

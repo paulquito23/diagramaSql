@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="FD2EAE09-A767-ADA2-1B37-B4322B67DEBD">
+<Attribute name="lug_codigo" id="FD2EAE09-A767-ADA2-1B37-B4322B67DEBD">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 23:02:51 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,7 +27,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="620B072C-9B3F-9902-E748-579C502B810D">
+<Attribute name="lug_empres" id="B0094AD2-CDC9-7C53-712F-CBFAAC3E18EF">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-08 23:35:14 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lug_nombre" id="620B072C-9B3F-9902-E748-579C502B810D">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 23:03:15 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -41,7 +54,7 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="FB07446F-DBA3-BF8C-B47D-9A591E8238D3">
+<Attribute name="ubi_codigo" id="FB07446F-DBA3-BF8C-B47D-9A591E8238D3">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 23:05:37 UTC</createdTime>
 <generatorID>18CE9EB3-61F3-0358-C2BE-1A56E1EB9FF4</generatorID>

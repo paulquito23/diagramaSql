@@ -90,6 +90,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="prov_empresa" id="5AFA68B8-7F74-B12D-F931-E28B72BACF2D">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 14:31:03 UTC</createdTime>
+<generatorID>B8A3D7E9-1977-BBDD-3790-9565F97363E9</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>E974F4E6-4FEA-025E-9B7E-E164203F6EB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="EF5A5B9C-6CFC-121F-41FA-CBC518C785C8" name="pedido_fabrica PK">
@@ -102,9 +116,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CF744B9D-16CB-3358-BD94-43DDCCEA9835</attributeRef>
-<attributeRef>23310864-919B-49CD-C67F-88022C28F239</attributeRef>
-<attributeRef>8D70E9B3-0C05-F760-BE3D-C735A3B12D03</attributeRef>
-<attributeRef>4FF4AE66-DB9B-08F0-13D6-69D026762C6C</attributeRef>
+<attributeRef>B66ADE05-D2EF-7125-D6EC-6550BB966BD4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

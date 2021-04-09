@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="epar_empresa" id="45F98779-FBC0-1F9C-3CC0-3A8B04334C99">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 21:46:07 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="epar_codigo" id="D8A7EE00-AD26-D329-F887-285C144417AB">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:38:08 UTC</createdTime>
@@ -53,9 +65,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="epar_empresa" id="45F98779-FBC0-1F9C-3CC0-3A8B04334C99">
+<Attribute name="epar_concesionario" id="F82FE939-52DA-F154-1A45-3CF7BE93D608">
 <createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 21:46:07 UTC</createdTime>
+<createdTime>2021-04-09 14:52:38 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -78,6 +90,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>D8A7EE00-AD26-D329-F887-285C144417AB</attributeRef>
+<attributeRef>45F98779-FBC0-1F9C-3CC0-3A8B04334C99</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

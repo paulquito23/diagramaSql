@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="C8314543-6180-C603-6F08-1A543B56E196">
+<Attribute name="uti_codigo" id="C8314543-6180-C603-6F08-1A543B56E196">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:02:28 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,7 +27,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha" id="4E4AC6BA-CFE5-5CE6-A8C4-11924F9F7CC4">
+<Attribute name="uti_empresa" id="E89FED9C-6655-1644-6F66-89786E30E2A6">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-08 23:27:45 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uti_fecha" id="4E4AC6BA-CFE5-5CE6-A8C4-11924F9F7CC4">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:02:40 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -40,7 +53,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero" id="92E7818A-3C5C-C9DB-5C3A-CDEC5933711D">
+<Attribute name="uti_numero" id="92E7818A-3C5C-C9DB-5C3A-CDEC5933711D">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:02:54 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -53,7 +66,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cantidad" id="60870E15-0C82-0FE8-EE07-31517110C154">
+<Attribute name="uti_cantidad" id="60870E15-0C82-0FE8-EE07-31517110C154">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:03:04 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -66,7 +79,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="valor" id="9D9BC3F9-21D3-BB8D-3DDE-B07033619C63">
+<Attribute name="uti_valor" id="9D9BC3F9-21D3-BB8D-3DDE-B07033619C63">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:03:17 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -79,7 +92,7 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="44149580-B73B-941D-BE3A-22929F47E03A">
+<Attribute name="emb_codigo" id="44149580-B73B-941D-BE3A-22929F47E03A">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 23:17:23 UTC</createdTime>
 <generatorID>EF119145-C31D-1CC3-94D0-2B02BCCBF2B3</generatorID>

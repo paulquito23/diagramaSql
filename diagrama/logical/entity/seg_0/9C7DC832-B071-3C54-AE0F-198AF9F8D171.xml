@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="emp_codigo" id="A61AF81D-429A-A26A-7340-C73E14A37BDD">
+<Attribute name="pro_empresa" id="A61AF81D-429A-A26A-7340-C73E14A37BDD">
 <createdBy>Usuario</createdBy>
 <createdTime>2021-04-08 22:27:56 UTC</createdTime>
 <generatorID>1B3B39A5-6BF8-D24A-8A21-88584E628933</generatorID>
@@ -44,6 +44,7 @@
 <Attribute name="pro_numero" id="9EFAD125-AEA2-081B-B302-19D3671E4FD2">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 21:50:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[secuencial en base al proveedor]]></commentInRDBMS>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -134,10 +135,25 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ped_empresa" id="AA7C84FE-9CF6-F2DC-07FD-689F55FACDDA">
+<Attribute name="prov_empresa" id="8EC973BB-8C62-092E-7F02-53D3969487AF">
 <createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 22:29:03 UTC</createdTime>
-<generatorID>02AEC3C7-5CEF-7885-7710-CC58C8AD8F9D</generatorID>
+<createdTime>2021-04-09 14:31:03 UTC</createdTime>
+<generatorID>F9555956-F4C3-CBB6-E2D2-45C2AC3984BA</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E974F4E6-4FEA-025E-9B7E-E164203F6EB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ped_empresa" id="29417044-537A-A325-AAF9-6FECF36BED20">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 14:37:00 UTC</createdTime>
+<generatorID>163314D5-FDCB-C103-6C1F-7E171FB1A705</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
@@ -148,46 +164,29 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ped_periodo" id="ACE3C01D-FC4E-F3FE-70A9-CD35C08F5A34">
+<Attribute name="ped_codigo" id="BDE740EB-BCC7-8E11-3BA5-C3DCDD0909EF">
 <createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 22:29:03 UTC</createdTime>
-<generatorID>02AEC3C7-5CEF-7885-7710-CC58C8AD8F9D</generatorID>
+<createdTime>2021-04-09 14:37:00 UTC</createdTime>
+<generatorID>163314D5-FDCB-C103-6C1F-7E171FB1A705</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<referedAttribute>23310864-919B-49CD-C67F-88022C28F239</referedAttribute>
+<referedAttribute>B66ADE05-D2EF-7125-D6EC-6550BB966BD4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ped_mes" id="CEE11641-C9DE-DE02-07F2-5DF0893D7A32">
+<Attribute name="pro_estado" id="0988F169-5F0D-CE09-89DD-0479A0AFF338">
 <createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 22:29:03 UTC</createdTime>
-<generatorID>02AEC3C7-5CEF-7885-7710-CC58C8AD8F9D</generatorID>
+<createdTime>2021-04-09 14:50:24 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<referedAttribute>8D70E9B3-0C05-F760-BE3D-C735A3B12D03</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="prov_codigo1" id="F0DF2971-1C46-5453-7A48-02B57E49E567">
-<createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 22:29:03 UTC</createdTime>
-<generatorID>02AEC3C7-5CEF-7885-7710-CC58C8AD8F9D</generatorID>
-<ownerDesignName>diagrama</ownerDesignName>
-<engineerTo>
-<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
-</engineerTo>
-<referedAttribute>4FF4AE66-DB9B-08F0-13D6-69D026762C6C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

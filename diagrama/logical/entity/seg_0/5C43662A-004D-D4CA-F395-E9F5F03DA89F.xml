@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="6C1A37A7-E6F0-6F4B-9735-863AD0CCA36C">
+<Attribute name="ban_codigo" id="6C1A37A7-E6F0-6F4B-9735-863AD0CCA36C">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:00:54 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
@@ -27,7 +27,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="0DCD3E8E-085D-DBF0-DD41-BE091C28DC6B">
+<Attribute name="ban_empresa" id="3353F7FB-F8FC-C5EC-707F-4839AC841CE2">
+<createdBy>caaf1025</createdBy>
+<createdTime>2021-04-08 23:29:15 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ban_nombre" id="0DCD3E8E-085D-DBF0-DD41-BE091C28DC6B">
 <createdBy>paul</createdBy>
 <createdTime>2021-04-07 22:01:03 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>

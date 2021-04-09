@@ -15,6 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pro_empresa" id="8E173188-D9A1-256C-17B3-EA80872FEF60">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-08 22:28:04 UTC</createdTime>
+<generatorID>ED9F95D2-49CE-5E1D-9CED-2BD8E10D516B</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>A61AF81D-429A-A26A-7340-C73E14A37BDD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="pro_codigo" id="3511AF12-58F1-58E2-A0F9-6128AACC88E8">
 <createdBy>Usuario</createdBy>
 <createdTime>2021-04-08 21:23:17 UTC</createdTime>
@@ -93,44 +107,102 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vea_anio" id="F05162B9-6B5F-531B-5E37-A4E9604430EA">
+<Attribute name="mod_codigo" id="A8953BFF-001B-E228-6D2C-61F0BD1663DE">
 <createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 21:37:26 UTC</createdTime>
-<generatorID>EC25AC2C-28AB-7125-C35F-E46F17A635F4</generatorID>
+<createdTime>2021-04-09 14:47:42 UTC</createdTime>
+<generatorID>B644F35E-25D5-E431-4F7D-14986F41CD1E</generatorID>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<referedAttribute>04B10478-8F76-F420-E2F8-E5754F3E525A</referedAttribute>
+<referedAttribute>3FF95A54-149C-368B-6C1C-C9E604C6F3AE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ver_codigo" id="23182DFF-507A-3627-E6F6-44F85FA04C87">
+<Attribute name="dpro_anio" id="41CA6BEC-39AC-AD5B-A019-57C2E8A3D406">
 <createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 21:37:26 UTC</createdTime>
-<generatorID>EC25AC2C-28AB-7125-C35F-E46F17A635F4</generatorID>
+<createdTime>2021-04-09 14:48:01 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<referedAttribute>A4359063-D772-F606-FF7E-C66C6FF9ACF7</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="emp_codigo" id="8E173188-D9A1-256C-17B3-EA80872FEF60">
+<Attribute name="descuento_unitario" id="9C7E7A47-437E-6D45-9EB8-7DD9C3EC8645">
 <createdBy>Usuario</createdBy>
-<createdTime>2021-04-08 22:28:04 UTC</createdTime>
-<generatorID>ED9F95D2-49CE-5E1D-9CED-2BD8E10D516B</generatorID>
+<createdTime>2021-04-09 14:49:41 UTC</createdTime>
 <ownerDesignName>diagrama</ownerDesignName>
 <engineerTo>
 <item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
 </engineerTo>
-<referedAttribute>A61AF81D-429A-A26A-7340-C73E14A37BDD</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_motor" id="4AC91347-9E67-1DE8-44E6-B6E46713770B">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 14:49:48 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_opciones" id="25388784-CBB4-61B3-B918-59AB13388281">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 14:49:56 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dpro_codigo_color_ext" id="1B32CF68-E4FC-1F52-9A2E-9F8FC2CC5F48">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 15:01:08 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_codigo" id="1CD00EE2-3003-2E9B-72CC-2CE49E206A46">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 15:14:37 UTC</createdTime>
+<generatorID>9823A0D4-EE78-975D-708D-D39432E0187F</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>4A79F04A-F40A-9B8D-37B9-82AE598E20E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fsc_empresa" id="42690C0B-A113-AB44-25BF-6A8D0E192B2A">
+<createdBy>Usuario</createdBy>
+<createdTime>2021-04-09 15:15:09 UTC</createdTime>
+<generatorID>9823A0D4-EE78-975D-708D-D39432E0187F</generatorID>
+<ownerDesignName>diagrama</ownerDesignName>
+<engineerTo>
+<item key="1ECAB830-7C56-F47C-E182-A7B43B27F603" value="true"/>
+</engineerTo>
+<referedAttribute>05DEA10A-DBEF-E392-251F-3774ADA18E79</referedAttribute>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -148,6 +220,7 @@
 <usedAttributes>
 <attributeRef>CD375562-FF1E-8C83-30E6-1FFAE68DCEC8</attributeRef>
 <attributeRef>3511AF12-58F1-58E2-A0F9-6128AACC88E8</attributeRef>
+<attributeRef>8E173188-D9A1-256C-17B3-EA80872FEF60</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
